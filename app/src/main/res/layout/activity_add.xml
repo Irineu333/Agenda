@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:layout_margin="8dp"
+			android:id="@+id/activityadd_EditText_nome"
+			android:hint="Nome"
+			android:inputType="textCapWords"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:inputType="number"
+			android:layout_width="match_parent"
+			android:layout_margin="8dp"
+			android:hint="Matricula"
+			android:id="@+id/activityadd_EditText_matricula"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+				android:inputType="textEmailAddress"
+			android:layout_width="match_parent"
+			android:layout_margin="8dp"
+			android:id="@+id/activityadd_EditText_email"
+			android:hint="Email"/>
+
+	</LinearLayout>
+
+</ScrollView>
+
